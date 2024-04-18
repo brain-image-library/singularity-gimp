@@ -1,14 +1,24 @@
 ![Status](https://github.com/brain-image-library/singularity-gimp/actions/workflows/main.yml/badge.svg)
 ![Status](https://github.com/brain-image-library/singularity-gimp/actions/workflows/pretty.yml/badge.svg)
-![Issue](https://img.shields.io/github/issues/icaoberg/singularity-gimp)
-![forks](https://img.shields.io/github/forks/icaoberg/singularity-gimp)
-![Stars](https://img.shields.io/github/stars/icaoberg/singularity-gimp)
-![License](https://img.shields.io/github/license/icaoberg/singularity-gimp)
+![Issue](https://img.shields.io/github/issues/brain-image-library/singularity-gimp)
+![forks](https://img.shields.io/github/forks/brain-image-library/singularity-gimp)
+![Stars](https://img.shields.io/github/stars/brain-image-library/singularity-gimp)
+![License](https://img.shields.io/github/license/brain-image-library/singularity-gimp)
 
 # singularity-gimp
 <img src="https://www.gimp.org/images/frontpage/wilber-big.png" width="50%" />
 
 Singularity recipe for [gimp](https://www.gimp.org/).
+
+## Installing the container on BRAIN
+Copy the
+
+* `SIF` file
+* and the `gimp` script
+
+to `/bil/packages/GIMP/6.0`.
+
+Copy the file `modulefile.lua` to `/bil/modulefiles/GIMP` as `6.0.lua`.
 
 ## Building the image using the recipe
 
