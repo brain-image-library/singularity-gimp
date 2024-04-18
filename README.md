@@ -6,7 +6,8 @@
 ![License](https://img.shields.io/github/license/icaoberg/singularity-gimp)
 
 # singularity-gimp
-![](https://www.gimp.org/images/frontpage/wilber-big.png)
+<img src="https://www.gimp.org/images/frontpage/wilber-big.png" width="50%" />
+
 Singularity recipe for [gimp](https://www.gimp.org/).
 
 ## Building the image using the recipe
