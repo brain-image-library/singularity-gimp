@@ -1,0 +1,17 @@
+Bootstrap: docker
+From: debian:bookworm
+
+%labels
+    MAINTAINER icaoberg
+    EMAIL icaoberg@psc.edu
+    MAINTAINER help@psc.edu
+    WEBSITE http://www.github.com/brain-image-library/singularity-gimp
+    COPYRIGHT Copyright 2021-2024, Pittsburgh Supercomputing Center. All Rights Reserved. 
+    VERSION 2.10
+
+%post
+    apt-get update
+    apt-get install -y gimp
+
+%runscript
+    gimp "$@"
