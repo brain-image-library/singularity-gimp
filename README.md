@@ -16,9 +16,9 @@ Copy the
 * `SIF` file
 * and the `gimp` script
 
-to `/bil/packages/GIMP/6.0`.
+to `/bil/packages/GIMP/2.10`.
 
-Copy the file `modulefile.lua` to `/bil/modulefiles/GIMP` as `6.0.lua`.
+Copy the file `modulefile.lua` to `/bil/modulefiles/GIMP` as `2.10.lua`.
 
 ## Building the image using the recipe
 
